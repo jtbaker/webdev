@@ -1,0 +1,64 @@
+body {
+    background: url(resources/concert.jpg);
+    background-size: 800px 640px;
+    background-repeat: yes;
+    background-attachment: fixed;
+    margin: 0;
+    overflow: scroll;
+    }
+
+#headerimage {
+    text-align: center;
+    }
+#headerimage img {
+    width: 200px;
+    }
+#nav {
+    top: 20px;
+    left: 20px;
+    font-family: arial;
+    list-style-type: none;
+    font-size: 10pt;
+    padding: 2px;
+    position: fixed;
+    border-collapse: collapse;
+    border-radius: 2px;
+    border-collapse: collapse;
+    opacity: 0.9;
+    float:left;
+    }
+
+#nav nav {
+    list-style-type: none;
+    border: 1px solid white;
+    }
+
+#nav li {
+    display: block;
+    border: 1px solid white;
+    text-align: justify;
+    }
+
+#nav a:hover {
+    background-color: orange;
+    color: #582901
+    }
+
+#nav a:active  {
+    background-color: pink;
+    }
+#content {
+    left: 100px;
+    max-width: 400px;
+    }
+
+h1 {
+    float: right;
+    text-align: right;
+    color: white;
+    font-size: 12pt;
+    margin: 40px;
+    padding: 5px;
+    display: block;
+    position: fixed;
+    }
