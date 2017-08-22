@@ -7,6 +7,11 @@ body {
     overflow: scroll;
     }
 
+#outer a:hover {
+    opacity: 0.6;
+    background-color: #00B8BE;
+    }
+
 #headerimage {
     text-align: center;
     width: 100%;
@@ -59,6 +64,7 @@ a#headerimage :hover {
 
 #content {
     color: #BDADBE;
+    margin: 0 auto;
     }
 
 .wrapper {
