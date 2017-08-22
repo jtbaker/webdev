@@ -20,7 +20,7 @@ body {
     width: 100%;
     }
 
-#headerimage a:hover {
+a#headerimage :hover {
     opacity: 0.6;
     }
 
