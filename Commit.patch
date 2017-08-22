@@ -1,0 +1,198 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1503370510000)
++++ .idea/workspace.xml	(revision )
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="cbc69123-69a1-4dd5-8c47-bc2b27f1f7f9" name="Default" comment="">
++    <list default="true" id="cbc69123-69a1-4dd5-8c47-bc2b27f1f7f9" name="Default" comment="Commit">
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+     </list>
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+@@ -17,8 +17,8 @@
+       <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/blog.html">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="90">
+-              <caret line="6" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="7" />
++            <state relative-caret-position="210">
++              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+               <folding />
+             </state>
+           </provider>
+@@ -37,8 +37,8 @@
+       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/main.css">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="219">
+-              <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
++            <state relative-caret-position="165">
++              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+               <folding />
+             </state>
+           </provider>
+@@ -54,23 +54,16 @@
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
++      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/main.html">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="555">
+-              <caret line="37" column="7" lean-forward="false" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
++            <state relative-caret-position="285">
++              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="jtbheader.png" pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/resources/jtbheader.png">
+-          <provider selected="true" editor-type-id="images">
+-            <state />
+-          </provider>
+-        </entry>
+-      </file>
+     </leaf>
+   </component>
+   <component name="Git.Rebase.Settings">
+@@ -301,18 +294,31 @@
+       <option name="project" value="LOCAL" />
+       <updated>1503260046830</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="Commit">
++      <created>1503370319374</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1503370319374</updated>
++    </task>
++    <task id="LOCAL-00010" summary="Commit">
++      <created>1503370510064</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1503370510064</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="290" y="23" width="1109" height="812" extended-state="0" />
+-    <editor active="true" />
+     <layout>
+-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17432052" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16771866" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45416668" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3176312" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+@@ -328,6 +334,32 @@
+       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+     </layout>
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="RECENTLY_FILTERED_USER_GROUPS">
++                <collection />
++              </option>
++              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
++                <collection />
++              </option>
++              <option name="COLUMN_ORDER">
++                <list>
++                  <option value="0" />
++                  <option value="1" />
++                  <option value="2" />
++                  <option value="3" />
++                </list>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
+   <component name="VcsContentAnnotationSettings">
+     <option name="myLimit" value="2678400000" />
+   </component>
+@@ -501,18 +533,15 @@
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/rainpy" />
+-    <entry file="file://$PROJECT_DIR$/main.css">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="219">
+-          <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+-          <folding />
+-        </state>
++    <entry file="file://$PROJECT_DIR$/resources/jtbheader.png">
++      <provider selected="true" editor-type-id="images">
++        <state />
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/blog.html">
++    <entry file="file://$PROJECT_DIR$/main.css">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="90">
+-          <caret line="6" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="7" />
++        <state relative-caret-position="165">
++          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+           <folding />
+         </state>
+       </provider>
+@@ -525,15 +554,15 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/contact.html">
++    <entry file="file://$PROJECT_DIR$/blog.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="555">
+-          <caret line="37" column="7" lean-forward="false" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
++        <state relative-caret-position="210">
++          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/main.html">
++    <entry file="file://$PROJECT_DIR$/contact.html">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="555">
+           <caret line="37" column="7" lean-forward="false" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+@@ -541,9 +570,17 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/resources/jtbheader.png">
++    <entry file="file://$PROJECT_DIR$/resources/21057700_10105364757060937_988043707_o.jpg">
+       <provider selected="true" editor-type-id="images">
+         <state />
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/main.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="285">
++          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
++          <folding />
++        </state>
+       </provider>
+     </entry>
+   </component>
