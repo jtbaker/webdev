@@ -25,10 +25,6 @@ body {
     width: 100%;
     }
 
-a#headerimage :hover {
-    opacity: 0.6;
-    }
-
 #headerimage img {
     width: 400px;
     }
@@ -69,4 +65,10 @@ a#headerimage :hover {
 
 .wrapper {
     border-collapse: collapse;
+    }
+
+#footer {
+    text-align: center;
+    margin: 0 auto;
+    bottom: 10px;
     }
