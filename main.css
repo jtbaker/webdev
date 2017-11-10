@@ -43,9 +43,9 @@ body {
     margin: 5px auto;
     }
 
-#social a {
-    float: top;
-    width: 25px;
+#socialpic {
+    border: 2px solid white;
+    border-radius: 20px;
     }
 
 #content {
