@@ -16,7 +16,7 @@ body {
     margin: 0px 0px 10px;
     }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
     #headerimage img {
         max-width: 300px;
         }
