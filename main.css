@@ -1,5 +1,4 @@
 body {
-    background: url(resources/concert.jpg);
     background-size: 800px 640px;
     background-repeat: yes;
     background-attachment: fixed;
@@ -8,17 +7,26 @@ body {
     }
 
 #outer a:hover {
-    opacity: 0.6;
+    opacity: 0.9;
     background-color: #00B8BE;
     }
 
 #headerimage {
     text-align: center;
     width: 100%;
-    background-color: #00B8BE;
-    border-bottom: 3px solid white;
-    border-collapse: collapser;
+    background-color: #9BD4FF;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
     margin: 0px 0px 10px;
+    }
+
+.span12 tabbable {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+.navlink a:hover {
+    background-color: #FF9CC1;
     }
 
 #headerimage a {
@@ -29,46 +37,24 @@ body {
     width: 400px;
     }
 
-.nav li {
-    text-indent: 20px;
-    justify: center;
-    border: 3px solid white;
-    border-collapse: collapse;
-    line-height: 5px;
-    }
-
-#nav li + li{
-    border-top: none;
-}
-
-#nav {
-    margin: 0 auto;
-    font-family: arial;
-    list-style-type: none;
-    font-size: 10pt;
-    max-width: 250px;
-    }
-
-#nav a:hover {
-    background-color: orange;
-    color: #32FFD0;
-    }
-
-#nav a:active {
-    background-color: #4699CC;
+#photolist {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
     }
 
 #content {
-    color: #BDADBE;
-    margin: 0 auto;
+
     }
 
 .wrapper {
     border-collapse: collapse;
     }
 
-#footer {
+footer {
+    position: relative;
+    height: 20px;
     text-align: center;
-    margin: 0 auto;
     bottom: 10px;
     }

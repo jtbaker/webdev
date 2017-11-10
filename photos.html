@@ -17,25 +17,36 @@
         <img src="resources/jtbheader.png">
         </div></a>
 <div class = "container">
-    <div class="row" class="wrapper">
-        <div class="col-sm-4" id="nav">
-            <ul class="nav">
-                <li class="nav-item"><a class="nav-link" href="index.html"><b>Main</b></a></li>
-                <li class="nav-item"><a class="nav-link" href="aboutme.html"><b>About Me</b></a></li>
-                <li class="nav-item"><a class="nav-link active" href="blog.html"><b>Blog</b></a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html"><b>Contact</b></a></li>
-                <li class="nav-item"><a class="nav-link" href="photos.html"><b>Photography</b></a></li>
-                <li class="nav-item"><a class="nav-link" href="roster.html"><b>Roster</b></a></li>
+    <div id="primary-navigation" class="row">
+        <div class="span12 tabbable">
+            <ul class="nav nav-tabs">
+                <li><a class="nav-link" href="index.html"><b>Main</b></a></li>
+                <li><a class="nav-link" href="aboutme.html"><b>About Me</b></a></li>
+                <li><a class="nav-link" href="blog.html"><b>Blog</b></a></li>
+                <li><a class="nav-link" href="contact.html"><b>Contact</b></a></li>
+                <li class="active"><a class="nav-link" href="photos.html"><b>Photography</b></a></li>
             </ul>
         </div>
-        <div class="col-sm-8" id="content">
-            <p><h5>Here is a sampling of my photography:</h5>
-            <a data-flickr-embed="true" href="https://www.flickr.com/photos/jasontbaker/albums/72157678415952762" title="Big Bend Ranch"><img src="https://farm4.staticflickr.com/3796/33016944716_629cd6826d.jpg" width="500" height="333" alt="Big Bend Ranch"></a></p>
+    </div>
+    <div class="row">
+        <div class="col-sm-12" id="photos">
+            <h5>Here is a sample portfolio of my photography.</h5>
+            <h5>For inquiries regarding freelance work, get in touch with me using one of the contact methods above.</h5>
+            <div id="photolist">
+                <script>
+                    var photos = [];
+                    for (var i=1; i<43; i++){
+                        photos += '<img src="resources/Photos/PhotoPortfolio - '+i.toString()+'.jpg" class="img-responsive" alt="Responsive image"><br>';
+                        }
 
+                    document.getElementById("photolist").innerHTML = photos;
 
+                </script>
+            </div>
         </div>
     </div>
     <br>
+    <footer class="fixed-bottom">Copyright Jason Baker 2017</footer>
 </div>
 </body>
 </html>
