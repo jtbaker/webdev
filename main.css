@@ -18,7 +18,7 @@ body {
 
 @media screen and (max-width: 700px) {
     #headerimage img {
-        max-width: 300px;
+        max-width: 200px;
         }
     }
 
@@ -43,7 +43,8 @@ body {
     margin: 5px auto;
     }
 
-#social i {
+#social a {
+    float: top;
     width: 25px;
     }
 
