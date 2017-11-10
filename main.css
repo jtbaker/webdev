@@ -16,6 +16,11 @@ body {
     margin: 0px 0px 10px;
     }
 
+@media (max-width < 700px)
+#headerimage img {
+    max-width: 300px;
+    }
+
 .span12 tabbable {
     margin-left: 10px;
     margin-right: 10px;
@@ -33,11 +38,8 @@ body {
     width: 400px;
     }
 
-#photolist {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 40px;
-    margin-left: 40px;
+#photolist img {
+    margin: 5px auto;
     }
 
 #content {
@@ -49,8 +51,6 @@ body {
     }
 
 footer {
-    position: relative;
-    height: 20px;
     text-align: center;
-    bottom: 10px;
+    display: block;
     }
