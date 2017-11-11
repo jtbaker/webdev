@@ -1,10 +1,27 @@
 body {
     overflow: scroll;
+    background-image: url(resources/Contour-Map.png);
+    }
+
+#container {
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    opacity: 0.95;
+    }
+
+.row {
+    background-color: #FFFFFF;
+    opacity: 1.0;
     }
 
 #outer a:hover {
     opacity: 0.9;
     background-color: #00B8BE;
+    }
+
+#primary-navigation {
+    margin-top: 5px;
     }
 
 #headerimage {
@@ -13,7 +30,7 @@ body {
     background-color: #00B3B9;
     border-bottom: 2px solid #007F85;
     border-collapse: collapse;
-    margin: 0px 0px 10px;
+    margin: 0px auto;
     }
 
 @media screen and (max-width: 700px) {
