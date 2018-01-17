@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Data Viz</title>
+</head>
+<body>
+    <a href="index.html"><div id="headerimage">
+        <img src="resources/jtbheader.png">
+        </div></a>
+<div class = "container"  id="container">
+    <div id="primary-navigation" class="row">
+        <div class="span12 tabbable">
+            <ul class="nav nav-tabs">
+                <li class="active"><a class="nav-link" href="index.html"><b>Main</b></a></li>
+                <li><a class="nav-link" href="aboutme.html"><b>About Me</b></a></li>
+                <li><a class="nav-link" href="blog.html"><b>Blog</b></a></li>
+                <li><a class="nav-link" href="contact.html"><b>Contact</b></a></li>
+                <li><a class="nav-link" href="photos.html"><b>Photography</b></a></li>
+            </ul>
+        </div>
+        <br>
+    </div>
+    <div class="row">
+        <div class="col-sm-12" id="content">
+
+            <h5>This section will contain some experimentation on Data Visualization using some different Javascript Libaries.</h5>
+
+            <div id="chart" style="width:600px; height:300px; postion:relative;"></div>
+            <script>
+                var wins = [[[0,13],[1,11],[2,15],[3,15],[4,18],[5,21],[6,28]]];
+                var wins2 = [[[0,28]],[[1,28]],[[2,21]],[[3,20]],[[4,19]]];
+                var teams = [
+                    [0,"MCI"],
+                    [1,"MUN"],
+                    [2,"ARS"],
+                    [3,"TOT"],
+                    [4,"NEW"]
+                ];
+                var years = [
+                        [0, "2006"],
+                        [1, "2007"],
+                        [2, "2008"],
+                        [3, "2009"],
+                        [4, "2010"],
+                        [5, "2011"],
+                        [6, "2012"],
+                    ];
+                window.onload = function(){
+                    Flotr.draw(
+                        document.getElementById("chart"),
+                        wins2,
+                        {
+                            title: "Premier League Wins (2011-2012)",
+                            colors: ["#89AFD2", "#1D1D1D", "#DF021D", "#0E204B", "#E67840"],
+                            bars: {
+                                show: true,
+                                barWidth: 0.5,
+                                shadowSize: 1,
+                                fillOpacity: 1,
+                                lineWidth: 0
+                            },
+                            yaxis: {
+                                min: 0,
+                                tickDecimals: 0,
+                            },
+                            xaxis: {
+                                ticks: teams
+                            },
+                            grid: {
+                                horizontallines: false,
+                                verticallines: false,
+                            }
+
+                        }
+                    );
+                };
+                </script>
+            <!--[if lt IE 9]><script src="resources/Flotr2/lib/excanvas.js></script><![endif]-->
+            <script src="resources/Flotr2/flotr2.min.js"></script>
+
+
+        </div>
+    </div>
+    <br>
+    <footer class="navbar-default navbar-fixed-bottom">
+        <div class="container-fluid"><span>© Jason Baker 2017</span></div>
+    </footer>
+</div>
+</body>
+</html>

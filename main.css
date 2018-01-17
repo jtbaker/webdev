@@ -3,16 +3,14 @@ body {
     background-image: url(resources/Contour-Map.png);
     }
 
-#container {
-    height: 100%;
+.container {
+    min-height: 90%;
     width: 100%;
     background-color: #FFFFFF;
-    opacity: 0.95;
     }
 
 .row {
     background-color: #FFFFFF;
-    opacity: 1.0;
     }
 
 #outer a:hover {
@@ -37,6 +35,10 @@ body {
     #headerimage img {
         max-width: 200px;
         }
+    #primary-navigation li, a {
+    font-height: 12px;
+    height: 20px;
+    }
     }
 
 .span12 tabbable {
@@ -66,7 +68,6 @@ body {
     }
 
 #content {
-
     }
 
 .wrapper {
