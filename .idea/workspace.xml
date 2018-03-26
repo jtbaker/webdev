@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c1caf45-820f-4c93-8319-87c65fad9877" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/austincrimemap.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/austincrimemap.html" afterPath="$PROJECT_DIR$/austincrimemap.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -142,9 +142,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="237" />
+    <option name="x" value="630" />
     <option name="y" value="103" />
-    <option name="width" value="1203" />
+    <option name="width" value="810" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -308,13 +308,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502948706691</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Commit">
-      <created>1503181537563</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1503181537563</updated>
     </task>
     <task id="LOCAL-00006" summary="Commit">
       <created>1503255133754</created>
@@ -652,13 +645,20 @@
       <option name="project" value="LOCAL" />
       <updated>1516655161412</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Commit">
+      <created>1522023862705</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1522023862705</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="237" y="103" width="1203" height="797" extended-state="0" />
+    <frame x="630" y="103" width="810" height="797" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33840948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5069708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5972477" sideWeight="0.5023194" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6300813" sideWeight="0.49768057" order="2" side_tool="false" content_ui="tabs" />
